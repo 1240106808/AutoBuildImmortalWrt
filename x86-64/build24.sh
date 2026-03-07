@@ -6,6 +6,7 @@ echo "第三方软件包: $CUSTOM_PACKAGES"
 LOGFILE="/tmp/uci-defaults-log.txt"
 echo "Starting 99-custom.sh at $(date)" >> $LOGFILE
 echo "编译固件大小为: $PROFILE MB"
+INCLUDE_DOCKER="no"
 echo "Include Docker: $INCLUDE_DOCKER"
 
 echo "Create pppoe-settings"
